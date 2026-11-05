@@ -1,0 +1,5 @@
+# Original photos and source media stay local; the site uses the resized copies in assets/
+photos/*
+!photos/README.txt
+!photos/couple-*.jpg
+!photos/attire-bg*.jpg
