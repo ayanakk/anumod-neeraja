@@ -119,7 +119,7 @@ button { font: inherit; }
 .jasmine { position: absolute; top: 0; left: var(--zari-w); right: var(--zari-w); height: 40px; z-index: 1; background: url("assets/jasmine.png") left center / auto 100% repeat-x; filter: drop-shadow(0 3px 3px rgba(60,40,10,.15)); }
 .hero-photo { --w: min(266px, 68vw); position: relative; width: var(--w); aspect-ratio: 266 / 360; margin-top: 22px; }
 .arch { width: 100%; height: 100%; padding: 6px; border: 1px solid var(--gold); border-radius: calc(var(--w) / 2) calc(var(--w) / 2) 8px 8px; }
-.arch img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 25%; border-radius: calc(var(--w) / 2 - 6px) calc(var(--w) / 2 - 6px) 4px 4px; background: #d9c9a6; }
+.arch img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; border-radius: calc(var(--w) / 2 - 6px) calc(var(--w) / 2 - 6px) 4px 4px; background: #d9c9a6; }
 .arch-gem { position: absolute; left: 50%; top: 0; width: 16px; height: 16px; transform: translate(-50%, -50%) rotate(45deg); background: var(--ivory); border: 1.2px solid var(--gold); }
 .arch-gem::after { content: ''; position: absolute; inset: 4px; border-radius: 50%; background: var(--maroon); }
 .hero-text { display: flex; flex-direction: column; align-items: center; gap: 14px; }
